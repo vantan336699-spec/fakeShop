@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KA!ZERR STORE | Корзина</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header" id="main-header"></header>
+
+    <main class="container main-content">
+        <h1 class="page-title">Ваша Корзина</h1>
+        <div class="cart-wrapper">
+            <div class="cart-items-list" id="cart-items-container">
+                </div>
+            <div class="cart-summary-panel" id="cart-summary">
+                <h3>Итоговый заказ</h3>
+                <div class="summary-row">
+                    <span>Товары:</span>
+                    <span id="summary-total">$0.00</span>
+                </div>
+                <button id="checkout-btn" class="btn btn-primary btn-block">Оформить заказ</button>
+                <a href="index.html" class="btn btn-secondary btn-block" style="text-align: center; margin-top: 1rem;">Вернуться в каталог</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/models.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
